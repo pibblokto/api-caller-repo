@@ -48,6 +48,7 @@ class Program
                 await producerClient.DisposeAsync();
             }
             Thread.Sleep(400);
+            Console.WriteLine(data);
         }
     }
 }
